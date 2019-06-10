@@ -24,7 +24,7 @@ public class Project {
 	@NotBlank(message="Project Name not found")
 	private String name;
 	
-	@NotBlank(message="description is not required")
+	@NotBlank(message="description is required")
 	private String description;
 	
 	@NotBlank(message="Project Identifier is required")
